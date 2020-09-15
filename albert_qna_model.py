@@ -10,6 +10,16 @@ from transformers import (
     squad_convert_examples_to_features
 )
 
+
+"""
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+
+tokenizer = AutoTokenizer.from_pretrained("pertschuk/albert-base-squad-classifier")
+
+model = AutoModelForSequenceClassification.from_pretrained("pertschuk/albert-base-squad-classifier")
+
+"""
+
 from transformers.data.processors.squad import SquadResult, SquadV2Processor, SquadExample
 
 from transformers.data.metrics.squad_metrics import compute_predictions_logits
