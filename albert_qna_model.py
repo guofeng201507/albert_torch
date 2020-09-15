@@ -19,6 +19,9 @@ use_own_model = True
 
 if use_own_model:
     model_name_or_path = "./models/albert-xxlarge-v2-squad2"
+    # model_name_or_path = "./models/albert-base-v2-squad2"
+    # model_name_or_path = "./models/s224n-squad2.0-albert-large-v2"
+
 else:
     model_name_or_path = "ktrapeznikov/albert-xlarge-v2-squad-v2"
 
